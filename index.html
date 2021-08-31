@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memories</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <ion-icon name="camera-outline" class="header-icon"></ion-icon>
+      <span class="logo-text">Memories</span>
+    </header>
+
+    <main>
+      <section class="section-gallery">
+        <div class="container">
+          <div class="photos">
+            <div class="card">
+              <img
+                src="https://omnifood-neeraj.netlify.app/img/meals/meal-1.jpg"
+                class="card-img"
+              />
+              <div class="card-content">
+                <p class="card-title">Testing</p>
+                <p class="card-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam, suscipit.
+                </p>
+                <div class="card-icons">
+                  <div class="like">
+                    <button class="like-button">
+                      <ion-icon
+                        name="thumbs-up-outline"
+                        class="card-icon card-icon-like"
+                      ></ion-icon>
+                    </button>
+                    <span class="card-icon-text">10</span>
+                  </div>
+                  <div>
+                    <button class="delete-button">
+                      <ion-icon
+                        name="trash-outline"
+                        class="card-icon card-icon-delete"
+                      ></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://omnifood-neeraj.netlify.app/img/meals/meal-1.jpg"
+                class="card-img"
+              />
+              <div class="card-content">
+                <p class="card-title">Testing</p>
+                <p class="card-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam, suscipit.
+                </p>
+                <div class="card-icons">
+                  <div class="like">
+                    <button class="like-button">
+                      <ion-icon
+                        name="thumbs-up-outline"
+                        class="card-icon card-icon-like"
+                      ></ion-icon>
+                    </button>
+                    <span class="card-icon-text">10</span>
+                  </div>
+                  <div>
+                    <button class="delete-button">
+                      <ion-icon
+                        name="trash-outline"
+                        class="card-icon card-icon-delete"
+                      ></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="https://omnifood-neeraj.netlify.app/img/meals/meal-1.jpg"
+                class="card-img"
+              />
+              <div class="card-content">
+                <p class="card-title">Testing</p>
+                <p class="card-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam, suscipit.
+                </p>
+                <div class="card-icons">
+                  <div class="like">
+                    <button class="like-button">
+                      <ion-icon
+                        name="thumbs-up-outline"
+                        class="card-icon card-icon-like"
+                      ></ion-icon>
+                    </button>
+                    <span class="card-icon-text">10</span>
+                  </div>
+                  <div>
+                    <button class="delete-button">
+                      <ion-icon
+                        name="trash-outline"
+                        class="card-icon card-icon-delete"
+                      ></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form">
+            <h2 class="secondary-heading">Create a Memory</h2>
+            <form class="cta-form">
+              <div>
+                <label for="creator">Created By</label>
+                <input
+                  type="text"
+                  placeholder="Who took the picture?"
+                  id="creator"
+                  required
+                />
+              </div>
+              <div>
+                <label for="title">Title</label>
+                <input
+                  type="text"
+                  placeholder="What is it about?"
+                  id="Title"
+                  required
+                />
+              </div>
+              <div>
+                <label for="tags">Tags</label>
+                <input
+                  type="text"
+                  placeholder="Relevant Tags"
+                  id="creator"
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  type="file"
+                  id="file"
+                  aria-label="File browser example"
+                />
+              </div>
+
+              <button class="btn-submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
